@@ -1,3 +1,5 @@
+#Dicas Rapidas
+
 #Diferença entre PRINT, ECHO, PRINT_R e VAR_DUMP no PHP
 
 Para imprimirmos um texto, variável, vetor ou código html dentro de um arquivo php, 
@@ -12,7 +14,9 @@ que podem ser separadas por vírgulas. O echo não é uma função e sim um cons
 Exemplo:
 
   <?php
+  
   echo $var1, $var2;
+  
   ?>
 
 #Print:
@@ -40,6 +44,7 @@ O print_r () exibe informações sobre uma variável de uma forma que é legíve
    ?>
 
 Resultará em:
+
 Array
   (
       [0] => 123
@@ -69,7 +74,6 @@ Resultará em:
    }
 
 # MVC :: Conceito Prático de Utilização
-
 
 <!DOCTYPE html>
 
@@ -175,7 +179,4 @@ Resultará em:
     	
     	
     	echo str_reapeat ("<br>".40)
-    	 
-	
-
 ?>
