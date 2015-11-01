@@ -15,6 +15,7 @@ Exemplo:
 <?php
 echo $var1, $var2;
 ?>
+
 print:
 
 O print é utilizado também para impressão no PHP, é considerado uma função de impressão de valores.
