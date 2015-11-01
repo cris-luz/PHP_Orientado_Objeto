@@ -70,13 +70,21 @@ Resultará em:
 
 # MVC :: Conceito Prático de Utilização
 
+
 <!DOCTYPE html>
+
       <html lang="pt-br">
+      
         <head>
+        
            <meta charset="UTF-8">
+           
       	 <title>TecWeb PHP - MVC :: Conceito Prático de Utilização</title>
+      	 
         <head>
+        
         <body>
+        
             <?php
       	  //CONTROLLER 
       	  require('./ _aap/Config.inc.php');
@@ -100,7 +108,9 @@ Resultará em:
       	   
       	   //END CONTROLLER
       	   ?>
+      	   
       	</body>
+      	
       </html>
       
 #  PHP Files -
@@ -119,10 +129,13 @@ Resultará em:
     	//a = anexar
     	
     	//criando o arquivo
+    	
         $File = fopen ("{$BaseDir}/05.txt",'w');
+        
     	//String para manipular
         $Txt= "Bulbasaur Lorem ipsum dolor sit amet,\r\n\consectetur adipiscing elit.\r\n\Ivysaur Lorem ipsum dolor sit amet";
     	fwrite($File, $Txt);
+    	
     	// Atenção!!! Sempre feche o arquivo.
     	fclosed ($File);
     	
