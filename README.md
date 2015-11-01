@@ -27,7 +27,9 @@ O print é utilizado também para impressão no PHP, é considerado uma função
  Exemplo:
  
    <?php
+   
    print $var1 . $var2;
+   
    ?>
  
 #Print_r:
@@ -39,6 +41,7 @@ O print_r () exibe informações sobre uma variável de uma forma que é legíve
    <?php
    
    $array = array('123',123);
+   
    print_r($array);
    
    ?>
@@ -46,9 +49,13 @@ O print_r () exibe informações sobre uma variável de uma forma que é legíve
 Resultará em:
 
 Array
+
   (
+  
       [0] => 123
+      
       [1] => 123
+      
   )
 
 #Var_dump:
@@ -60,6 +67,7 @@ A função var_dump exibe informações estruturadas sobre as variáveis ​​/
    <?php
    
    $array = array('123',123);
+   
    var_dump($array);
    
    ?>
@@ -67,9 +75,13 @@ A função var_dump exibe informações estruturadas sobre as variáveis ​​/
 Resultará em:
 
    array(2) {
+   
      [0]=>
+     
      string(3) "123"
+     
      [1]=>
+     
      int(123)
    }
 
